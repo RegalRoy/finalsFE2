@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import {BrowserRouter, Route, Routes, useParams,useNavigate, Link} from 'react-router-dom'
 
-const url = 'http://localhost:3000/book/'
+const url = 'https://finalsbe2.onrender.com/book/'
 
 
 const UpdateBook =() =>{
