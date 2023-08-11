@@ -3,7 +3,7 @@ import axios from 'axios'
 import BookCard from './Bookcard'
 import {BrowserRouter, Route, Routes, Link, Navigate} from 'react-router-dom'
 
-const url = 'http://localhost:3000/book/'
+const url = 'https://finalsbe2.onrender.com/book/'
 
 const Home = () => {
     const [books, setBooks] = useState([])
