@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import {BrowserRouter, Route, Routes, useParams, Link, useNavigate} from 'react-router-dom'
 
-const url = 'http://localhost:3000/book/'
+const url = 'https://finalsbe2.onrender.com/book/'
 const AddBook = () =>{
     const navigate = useNavigate()
     const [book, setBook] = useState({
