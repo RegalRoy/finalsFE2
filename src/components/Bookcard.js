@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Routes, Link ,useNavigate} from 'react-router-dom'
 import axios from 'axios'
 
-const url = 'http://localhost:3000/book/'
+const url = 'https://finalsbe2.onrender.com/book/'
 
 
 const BookCard = (props) =>{
